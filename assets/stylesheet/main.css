@@ -1,0 +1,257 @@
+:root{
+    --dark-muted: #F4F4F4;
+    --footer-dark: #282828;
+    --footer-light: #373737;
+}
+
+#showcase{
+    width: 100%;
+    position: relative;
+    background-image: url('../images/dream11_home_bg_mobile.png');
+    min-height: 500px;
+    overflow: hidden;
+}
+#showcase .primary-overlay{
+        /* background-color: $primary-overlay; */
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+#showcase .thunder-image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#showcase .dhoni-image{
+    width: 400px;
+    position: absolute;
+    left: 0;
+    bottom: -144px;
+}
+@media (max-width: 992px){
+    #showcase .dhoni-image{
+        width: 380px;
+    }
+}
+@media (max-width: 575px){
+    #showcase .dhoni-image{
+        width: 300px;
+    }
+}
+
+.mw-s-3{
+    width: 30%;
+    min-width: 50px;
+}
+/* @media (max-width: 768px){
+    .mw-s-3{
+        height: 80px;
+    }
+}
+@media (max-width: 575px){
+    .mw-s-3{
+        height: 70px;
+    }
+} */
+
+#section-2{
+    background-color: #EFEFF4;
+}
+#section-2 .card{
+    overflow: hidden;
+    min-width: 300px;
+}
+#section-2 .card p{
+    font-size: 10px;
+    font-weight: bold;
+}
+#section-2 .leftbar .color{
+    width: 80px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+}
+#section-2 .leftbar img{
+    width: 70px;
+}
+#section-2 .leftbar .logo{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+}
+#section-2 .rightbar .color{
+    width: 80px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+}
+#section-2 .rightbar img{
+    width: 70px;
+}
+#section-2 .rightbar .logo{
+    position: absolute;
+    top: 30%;
+    right: 50px;
+}
+#section-2 .card-text{
+    font-size: 12px;
+}
+#section-2 .timer{
+    font-size: 15px;
+    color: #E3412E;
+}
+.color-11{
+    background-color: #EB5160;
+}
+.color-1{
+    background-color: #ED76D5;
+}
+.color-2{
+    background-color: #23A5FC;
+}
+.color-3{
+    background-color: #ED5DAB;
+}   
+.color-4{
+    background-color: #A7DFE2;
+}
+.color-5{
+    background-color: #D76E7F;
+}
+.color-6{
+    background-color: #5074AB;
+}
+.color-7{
+    background-color: #FFE12F;
+}
+.color-8{
+    background-color: #DCDCDC;
+}
+.color-9{
+    background-color: #E16767;
+}
+.color-10{
+    background-color: #4D94D6;
+}
+
+#section-3 .sec-sub-2 .number{
+    font-size: 4em;
+    font-weight: 600;
+} 
+
+#section-3 .sec-sub-2 iframe{
+    width: 650px;
+    height: 415px;
+}
+@media (max-width: 576px){
+    #section-3 .sec-sub-2 iframe{
+        width: 100%;
+        height: 200px;
+    }   
+}
+#section-4{
+    position: relative;
+    background-color: var(--dark-muted);
+}
+/* #section-4 img{
+    position: absolute;
+} */
+
+#section-4 ul li{
+    line-height: 25px;
+}
+
+#section-4 ul li::before{
+    content: "- ";
+}
+#section-4 .app-pub{
+    /* display: inline-block;
+    padding: 0.5em 1em; */
+    border-radius: 8px 8px;
+}
+.app-pub{
+    min-width: 200px;
+    background-color: black;
+    cursor: pointer;
+}
+#section-4 .app-pub h7{
+    font-size: 10px;
+}
+#section-4 .app-pub h5{
+    font-size: 1.2em;
+}
+#section-4 .app-pub i{
+    font-size: 40px;
+}
+
+#section-5 .overlay-custom-margin{
+    margin-top: 60px;
+}
+
+#section-5 .card{
+    overflow: hidden;
+}
+
+@media(max-width: 768px){
+    #section-5 h5{
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 480px){
+    #section-5 h5{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
+#section-6 .card-middle{
+    background-image: url("../images/bolt_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section-6 p{
+    font-size: 10px;
+}
+
+#section-6 .card{
+    max-height: 390px;
+    overflow: hidden;
+}
+
+#section-7{
+    background-color: #FAFAFA;
+}
+
+#footer .top-footer{
+    background-color: var(--footer-light);
+}
+
+#footer .top-footer .top-footer-1 .sociable ul li{
+    position: relative;
+    border-radius:30px;
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+#footer .top-footer .top-footer-1 .sociable ul li i{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
+#footer .top-footer .top-footer-1 .about-instruction ul li{
+    white-space: nowrap;
+    padding: 10px 0px;
+}
+#footer .bottom-footer{
+    background-color: var(--footer-dark);
+}

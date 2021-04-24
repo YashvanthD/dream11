@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<link rel="preconnect" href="https://www.crictimes.org/" crossorigin>
+<link rel="preconnect" href="https://crictimes.s3.amazonaws.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+<link rel="dns-prefetch" href="https://www.crictimes.org/">
+<link rel="dns-prefetch" href="https://crictimes.s3.amazonaws.com">
+<meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+<title>Cricket Score Widget</title>
+<meta name="description" content="Live Cricket Widget. Embed this easy to use live cricket widget in your website. Live Cricket Score updates and scores from crictimes.org.">
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<link href='https://bwidget.crictimes.org/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://widget.crictimes.org/' rel='canonical'/>
+<meta content='https://bwidget.crictimes.org/' property='og:url'/>
+<meta content='Live Cricket Widget - IPL 2020, World Cup' property='og:title'/>
+<meta content='Live Cricket Widget. Embed this easy to use live cricket widget in your website. Live Cricket Score updates and scores from crictimes.org.' property='og:description'/>
+<meta property="og:image" content="https://www.crictimes.org/img/banner.jpg" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<link rel="stylesheet" type="text/css" href="./css/Livescore.css">
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script type='text/javascript'>
+function loadCSS(e,t,n){"use strict";function r(){for(var t,i=0;i<d.length;i++)d[i].href&&d[i].href.indexOf(e)>-1&&(t=!0);t?o.media=n||"all":setTimeout(r)}var o=window.document.createElement("link"),i=t||window.document.getElementsByTagName("script")[0],d=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",i.parentNode.insertBefore(o,i),r(),o}
+window.currentTab = 'completed';
+function score(data, type){
+	var html = "";
+	$.each(data, function( index, value ) {
+    	var liveUrl = "https://www.crictimes.org/live-cricket-scores/"+value.url;
+		html += '<article class="w3-white seperate-v"><div class="home-sc-body">';
+		html += '<a class="link-series" rel="noreferrer noopener" target="blank" href="'+liveUrl+'">';
+		html += '<div class="status-bar"><span class="series_">'+value.spec+'<span>, '+value.series+'</span></span></div>'
+		html += '<h4 class="teams">';
+		html += '<div class="vs-team"><span class="team-vs team-name">'+value.t_one+'</span>';
+		if(value.status != 'UPCOMING'){
+			html += '<span class="team-vs team-score">'+value.t_one_s+'</span>';
+		}
+  		html += '</div>';
+		html += '</h4>';
+		html += '<h4 class="teams">';
+		html += '<div class="vs-team"><span class="team-vs team-name">'+value.t_two+'</span>';
+		if(value.status != 'UPCOMING'){
+			html += '<span class="team-vs team-score">'+value.t_two_s+'</span>';
+		}
+  		html += '</div>';
+		html += '</h4>';
+		if(value.status != 'UPCOMING'){
+			html += '<div class="status-bar sc-time">'+value.m_status+'</div>';
+		} else {
+			html += '<div class="status-bar sc-time">'+value.dt+'</div>';
+		}
+		if(value.status == 'LIVE'){
+			html += '<div class="status-bar"><div class="live w3-button w3-red w3-round w3-tiny w3-hover-blue"><span class="btn live">LIVE</span></div></div>'
+		} else {
+			html += '<div class="status-bar"><div class="live w3-button w3-dark w3-round w3-tiny w3-hover-blue"><span class="btn live">DETAILS</span></div></div>'
+		}
+		html += '</a></div></article>'
+  	});
+	$('#content').html(html);
+}
+function setActive(status){
+	$('.df-btn').removeClass('active')
+	$('#'+status).addClass('active')
+}
+function fetchScores(dStr){
+	$.ajax({url: "https://crictimes.s3.amazonaws.com/scores.json?q="+dStr, success: function(result){
+      if(result){
+		pS = window.currentTab;
+		if(pS){
+			setActive(pS)
+  			score(result[pS], pS)
+		} else {
+			setActive('completed')
+  			score(result['completed'], 'completed')
+		}
+		
+  	  } 
+  	}});
+}
+function dtString(){
+	var t = new Date();
+	return t.getTime();
+}
+$(document).ready(function() {
+	
+    fetchScores(dtString())
+	setInterval(function(){
+		fetchScores(dtString()) 
+	}, 30000);
+	$( ".main-body" ).on( "click", ".wtab", function() {
+		window.currentTab = $(this).attr('data-href');
+		fetchScores(dtString());
+	});
+});
+</script>
+<script>
+  loadCSS( "https://fonts.googleapis.com/css?family=Roboto:400|Lato:400%2C700" );
+</script>
+
+</head>
+<body>
+<div class='main no-items section' id='main'></div>
+<div class='main-body'>
+<div class='content'>
+<div style='background-color: #1384fb;'>
+<ul class='tabs'>
+<li class='df-btn' id='completed'>
+<a class="wtab" data-href="completed">RECENT</a>
+</li>
+<li class='df-btn' id='live'>
+<a class="wtab" data-href="live">LIVE</a>
+</li>
+<li class='df-btn' id='upcoming'>
+<a class="wtab" data-href="upcoming">UPCOMING</a>
+</li>
+</ul>
+</div>
+<div class='active-layer'></div>
+<div id='content'>
+</div>
+</div>
+<div class='footer-links'>
+<a class='w3-button w3-dark w3-round w3-tiny w3-hover-blue' href='https://www.crictimes.org/web?utm_source=bw&utm_medium=bwf&utm_campaign=n_bw_h' target='_blank' title='Crictimes'>CRICTIMES</a>
+<a class='live w3-button w3-red w3-round w3-tiny w3-hover-blue' href='https://www.crictimes.org/live-cricket-score-widget?utm_source=bw&utm_medium=bwf&utm_campaign=n_bw_w' target='_blank' title='Add this widget to your website'>EMBED</a>
+</div>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=UA-90586453-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90586453-1');
+</script>
+</body>
+</html>
