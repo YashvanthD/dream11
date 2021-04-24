@@ -1,0 +1,13 @@
+body {
+    background: #f1f1f1;
+}
+
+a,
+a:active{
+    text-decoration: none !important;
+}
+
+.match {
+    cursor: pointer;
+    text-decoration: none;
+}
