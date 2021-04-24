@@ -1,0 +1,946 @@
+[
+   {
+     "matchno": 1,
+     "teams": "MI vs CSK",
+     "DTP": 814.5,
+     "CLLTP": 570,
+     "diff": 244.5,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "Q de Kock, RD Chahar, F du Plessis, SM Curran, DL Chahar",
+              "points": "42, 37, 100, 68, 54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 2,
+     "teams": "DC vs KXIP",
+     "DTP": 927,
+     "CLLTP": 737.5,
+     "diff": 189.5,
+     "inDreamTeam": {
+        "noOfPlayers": 8,
+        "Players": [
+           {
+              "name": "SS Iyer, RR Pant, AR Patel, K Rabada, KL Rahul, MA Agarwal, Mohammed Shami, SS Cottrell",
+              "points": "57,47,41,62,49,124,93,56"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 3,
+     "teams": "SRH vs RCB",
+     "DTP": 788.5,
+     "CLLTP": 582.5,
+     "diff": 206,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "JM Bairstow, D Padikkal, AJ Finch, AB de Villiers, YS Chahal",
+              "points": "101,76,38,71,83"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 4,
+     "teams": "RR vs CSK",
+     "DTP": 1019.5,
+     "CLLTP": 907.5,
+     "diff": 112,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "SPD Smith ,SV Samson ,R Tewatia ,JC Archer ,F du Plessis ,SM Curran ,MS Dhoni  ",
+              "points": "93,145,88,64,107,101,47"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 5,
+     "teams": "KKR vs MI",
+     "DTP": 780,
+     "CLLTP": 513.5,
+     "diff": 266.5,
+     "inDreamTeam": {
+        "noOfPlayers": 4,
+        "Players": [
+           {
+              "name": "SA Yadav ,EJG Morgan ,TA Boult,RD Chahar",
+              "points": "59,29,62,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 6,
+     "teams": "KXIP vs RCB",
+     "DTP": 931.5,
+     "CLLTP": 712.5,
+     "diff": 219,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "KL Rahul  ,MA Agarwal ,GJ Maxwell ,Mohammed Shami,Ravi Bishnoi,AB de Villiers",
+              "points": "180,42,36,33,95,46"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 7,
+     "teams": "CSK vs DC",
+     "DTP": 721.5,
+     "CLLTP": 478,
+     "diff": 243.5,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "RR Pant ,SS Iyer ,K Rabada,AR Patel,F du Plessis",
+              "points": "68,31,87,39,51"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 8,
+     "teams": "KKR vs SRH",
+     "DTP": 642,
+     "CLLTP": 440,
+     "diff": 202,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "DA Warner ,MK Pandey ,Rashid Khan,Shubman Gill ,N Rana",
+              "points": "52,70,29,91,36"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 9,
+     "teams": "RR vs KXIP",
+     "DTP": 976.5,
+     "CLLTP": 820.5,
+     "diff": 156,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "KL Rahul  ,MA Agarwal ,SPD Smith ,SV Samson ,R Tewatia ",
+              "points": "98,158,73,123,79"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 10,
+     "teams": "RCB vs MI",
+     "DTP": 883.5,
+     "CLLTP": 427.5,
+     "diff": 456,
+     "inDreamTeam": {
+        "noOfPlayers": 4,
+        "Players": [
+           {
+              "name": "D Padikkal ,AB de Villiers ,S Dube ,A Zampa",
+              "points": "83,87,38,23"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 11,
+     "teams": "DC vs SRH",
+     "DTP": 711.5,
+     "CLLTP": 597.5,
+     "diff": 114,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "JM Bairstow ,KS Williamson ,Abdul Samad ,Rashid Khan],RR Pant ,AR Patel ,K Rabada",
+              "points": "85,50,27,85,45,17,82"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 12,
+     "teams": "RR vs KKR",
+     "DTP": 766.5,
+     "CLLTP": 702.5,
+     "diff": 64,
+     "inDreamTeam": {
+        "noOfPlayers": 8,
+        "Players": [
+           {
+              "name": "Shubman Gill ,EJG Morgan ,KL Nagarkoti ,CV Varun,JC Buttler ,SPD Smith ,TK Curran ,JC Archer ",
+              "points": "66,43,79,62,38,7,97,74"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 13,
+     "teams": "KXIP vs MI",
+     "DTP": 701,
+     "CLLTP": 539.5,
+     "diff": 161.5,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "RG Sharma ,SA Yadav ,RD Chahar,MA Agarwal ,N Pooran ,Mohammed Shami ",
+              "points": "96,32,54,32,55,41"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 14,
+     "teams": "CSK vs SRH",
+     "DTP": 665.5,
+     "CLLTP": 371,
+     "diff": 294.5,
+     "inDreamTeam": {
+        "noOfPlayers": 4,
+        "Players": [
+           {
+              "name": "T Natarajan,DA Warner ,F du Plessis ,DL Chahar",
+              "points": "50,43,38,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 15,
+     "teams": "RCB vs RR",
+     "DTP": 748.5,
+     "CLLTP": 512.5,
+     "diff": 236,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "R Tewatia ,JC Archer ,D Padikkal ,AJ Finch ,NA Saini,YS Chahal",
+              "points": "34,52,99,22,35,89"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 16,
+     "teams": "DC vs KKR",
+     "DTP": 922,
+     "CLLTP": 770,
+     "diff": 152,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "PP Shaw ,SS Iyer ,RR Pant ,N Rana ,AD Russell ,EJG Morgan ",
+              "points": "90,119,57,82,70,67"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 17,
+     "teams": "MI vs SRH",
+     "DTP": 763.5,
+     "CLLTP": 512,
+     "diff": 251.5,
+     "inDreamTeam": {
+        "noOfPlayers": 3,
+        "Players": [
+           {
+              "name": "Ishan Kishan ,DA Warner ,MK Pandey",
+              "points": "48,81,48"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 18,
+     "teams": "KXIP vs CSK",
+     "DTP": 728,
+     "CLLTP": 521,
+     "diff": 207,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "KL Rahul ,MA Agarwal ,N Pooran ,F du Plessis ,DL Chahar,RA Jadeja,PP Chawla",
+              "points": "84,33,44,112,6,37,25"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 19,
+     "teams": "RCB vs DC",
+     "DTP": 816.5,
+     "CLLTP": 688.5,
+     "diff": 128,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "PP Shaw ,RR Pant ,MP Stoinis ,K Rabada,A Nortje,V Kohli ,MM Ali ",
+              "points": "55,64,83,114,56,51,45"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 20,
+     "teams": "MI vs RR",
+     "DTP": 889,
+     "CLLTP": 738,
+     "diff": 151,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "RG Sharma ,SA Yadav ,JJ Bumrah,JC Buttler ,JC Archer ",
+              "points": "63,106,114,104,58"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 21,
+     "teams": "KKR vs CSK",
+     "DTP": 800,
+     "CLLTP": 561,
+     "diff": 239,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "KL Nagarkoti ,SR Watson ,F du Plessis ,MS Dhoni  ,SM Curran ,SN Thakur",
+              "points": "29,78,40,54,74,62"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 22,
+     "teams": "SRH vs KXIP",
+     "DTP": 993,
+     "CLLTP": 682.5,
+     "diff": 310.5,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "DA Warner ,JM Bairstow ,Abhishek Sharma ,Rashid Khan ,T Natarajan,MA Agarwal ",
+              "points": "85,136,44,93,62,14"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 23,
+     "teams": "RR vs DC",
+     "DTP": 905,
+     "CLLTP": 639.5,
+     "diff": 265.5,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "K Rabada ,JC Buttler ,SPD Smith ,R Tewatia ,JC Archer ",
+              "points": "87,27,40,98,91"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 24,
+     "teams": "KXIP vs KKR",
+     "DTP": 767,
+     "CLLTP": 536,
+     "diff": 231,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "Shubman Gill ,EJG Morgan ,KL Rahul ,MA Agarwal ,N Pooran ,Mohammed Shami,Ravi Bishnoi",
+              "points": "82,32,92,76,36,35,29"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 25,
+     "teams": "CSK vs RCB",
+     "DTP": 774.5,
+     "CLLTP": 594.5,
+     "diff": 180,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "D Padikkal ,V Kohli ,CH Morris,YS Chahal,SN Thakur",
+              "points": "49,114,103,29,53"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 26,
+     "teams": "SRH vs RR",
+     "DTP": 635.5,
+     "CLLTP": 493,
+     "diff": 142.5,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "DA Warner ,JM Bairstow ,MK Pandey ,KK Ahmed,Rashid Khan,JC Archer",
+              "points": "59,38,74,52,54,35"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 27,
+     "teams": "MI vs DC",
+     "DTP": 745.5,
+     "CLLTP": 447,
+     "diff": 298.5,
+     "inDreamTeam": {
+        "noOfPlayers": 4,
+        "Players": [
+           {
+              "name": "SS Iyer ,MP Stoinis ,K Rabada,SA Yadav ",
+              "points": "59,38,62,79"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 28,
+     "teams": "RCB vs KKR",
+     "DTP": 690,
+     "CLLTP": 510,
+     "diff": 180,
+     "inDreamTeam": {
+        "noOfPlayers": 3,
+        "Players": [
+           {
+              "name": "D Padikkal ,AB de Villiers ,CH Morris",
+              "points": "50,108,66"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 29,
+     "teams": "SRH vs CSK",
+     "DTP": 781.5,
+     "CLLTP": 518.5,
+     "diff": 263,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "SM Curran ,SR Watson ,KV Sharma,JM Bairstow ,T Natarajan ,KK Ahmed",
+              "points": "77,53,52,37,50,48"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 30,
+     "teams": "DC vs RR",
+     "DTP": 767.5,
+     "CLLTP": 567,
+     "diff": 200.5,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "SS Iyer ,AR Patel ,K Rabada,BA Stokes ,JC Archer",
+              "points": "72,49,29,45,100"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 31,
+     "teams": "RCB vs KXIP",
+     "DTP": 696,
+     "CLLTP": 511,
+     "diff": 185,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "D Padikkal ,CH Morris ,KL Rahul  ,CH Gayle ,Arshdeep Singh",
+              "points": "31,38,100,76,27"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 32,
+     "teams": "MI vs KKR",
+     "DTP": 672,
+     "CLLTP": 550,
+     "diff": 122,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "EJG Morgan ,AD Russell ,RG Sharma ,Q de Kock ,TA Boult,RD Chahar",
+              "points": "49,19,46,121,29,58"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 33,
+     "teams": "RR vs RCB",
+     "DTP": 806,
+     "CLLTP": 504.5,
+     "diff": 301.5,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "JC Buttler ,R Tewatia ,Kartik Tyagi,D Padikkal ,V Kohli ,AB de Villiers ,YS Chahal",
+              "points": "31,59,29,41,52,88,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 34,
+     "teams": "DC vs CSK",
+     "DTP": 844,
+     "CLLTP": 740,
+     "diff": 104,
+     "inDreamTeam": {
+        "noOfPlayers": 8,
+        "Players": [
+           {
+              "name": "SM Curran ,F du Plessis ,SR Watson ,SN Thakur,S Dhawan ,AR Patel ,K Rabada,A Nortje",
+              "points": "35,96,46,27,145,33,37,58"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 35,
+     "teams": "SRH vs KKR",
+     "DTP": 656.5,
+     "CLLTP": 496,
+     "diff": 160.5,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "Shubman Gill ,N Rana ,EJG Morgan ,CV Varun,JM Bairstow ,DA Warner ,V Shankar",
+              "points": "61,46,43,29,47,56,44"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 36,
+     "teams": "MI vs KXIP",
+     "DTP": 749.5,
+     "CLLTP": 580,
+     "diff": 169.5,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "Q de Kock ,KA Pollard ,RD Chahar,KL Rahul  ,CH Gayle ",
+              "points": "80,47,54,102,33"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 37,
+     "teams": "CSK vs RR",
+     "DTP": 619,
+     "CLLTP": 467.5,
+     "diff": 151.5,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "JC Buttler,SR Watson ,SPD Smith ,AT Rayudu,RA Jadeja,JC Archer",
+              "points": "109,14,32,17,43,37"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 38,
+     "teams": "KXIP vs DC",
+     "DTP": 792.5,
+     "CLLTP": 508,
+     "diff": 284.5,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "S Dhawan ,CH Gayle ,MA Agarwal ,M Ashwin,K Rabada",
+              "points": "144,40,25,29,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 39,
+     "teams": "KKR vs RCB",
+     "DTP": 601,
+     "CLLTP": 405.5,
+     "diff": 195.5,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "D Padikkal ,EJG Morgan ,CH Morris,YS Chahal,N Saini,LH Ferguson",
+              "points": "40,39,30,60,29,53"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 40,
+     "teams": "RR vs SRH",
+     "DTP": 773.5,
+     "CLLTP": 615.5,
+     "diff": 158,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "S Samson,SPD Smith ,MK Pandey ,JH Holder,R Khan,JC Archer",
+              "points": "45,25,123,91,31,75"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 41,
+     "teams": "CSK vs MI",
+     "DTP": 753,
+     "CLLTP": 623.5,
+     "diff": 129.5,
+     "inDreamTeam": {
+        "noOfPlayers": 8,
+        "Players": [
+           {
+              "name": "Q de Kock ,F du Plessis ,AT Rayudu,SA Yadav ,SM Curran ,JJ Bumrah,TA Boult,RD Chahar",
+              "points": "95,5,6,20,72,54,124,56"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 42,
+     "teams": "KKR vs DC",
+     "DTP": 983,
+     "CLLTP": 475,
+     "diff": 508,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "RR Pant ,SS Iyer ,EJG Morgan ,R Tripathi,K Rabada,A Nortje",
+              "points": "43,56,33,42,72,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 43,
+     "teams": "KXIP vs SRH",
+     "DTP": 778.5,
+     "CLLTP": 665,
+     "diff": 113.5,
+     "inDreamTeam": {
+        "noOfPlayers": 8,
+        "Players": [
+           {
+              "name": "KL Rahul,DA Warner ,CH Gayle ,JH Holder,R Khan,R Bishnoi,A Singh,S Sharma",
+              "points": "51,62,28,59,68,47,81,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 44,
+     "teams": "RCB vs CSK",
+     "DTP": 697.5,
+     "CLLTP": 544.5,
+     "diff": 153,
+     "inDreamTeam": {
+        "noOfPlayers": 10,
+        "Players": [
+           {
+              "name": "AB de Villiers,F du Plessis ,V Kohli ,D Padikkal ,SM Curran ,MJ Santner,CH Morris,DL Chahar,M Kumar,YS Chahal",
+              "points": "47,51,65,30,79,39,29,54,2,31"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 45,
+     "teams": "RR vs MI",
+     "DTP": 881,
+     "CLLTP": 591,
+     "diff": 290,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "I Kishan,SA Yadav ,RV Uthappa ,BA Stokes ,JC Archer",
+              "points": "47,50,19,163,62"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 46,
+     "teams": "KKR vs KXIP",
+     "DTP": 800.5,
+     "CLLTP": 529.5,
+     "diff": 271,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "EJG Morgan ,CH Gayle ,CV Varun,R Bishnoi,M Shami",
+              "points": "53,83,31,64,79"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 47,
+     "teams": "SRH vs DC",
+     "DTP": 804,
+     "CLLTP": 454,
+     "diff": 350,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "RR Pant ,MK Pandey ,A Nortje,R Khan,S Sharma",
+              "points": "45,54,28,85,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 48,
+     "teams": "MI vs RCB",
+     "DTP": 823,
+     "CLLTP": 727,
+     "diff": 96,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "I Kishan,SA Yadav ,D Padikkal ,CH Morris,JJ Bumrah,TA Boult,YS Chahal",
+              "points": "34,115,108,48,93,35,52"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 49,
+     "teams": "CSK vs KKR",
+     "DTP": 802,
+     "CLLTP": 505.5,
+     "diff": 296.5,
+     "inDreamTeam": {
+        "noOfPlayers": 5,
+        "Players": [
+           {
+              "name": "S Gill, R Gaikwad, AT Rayudu, CV Varun, L Ngidi",
+              "points": "34,102,57,56,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 50,
+     "teams": "KXIP vs RR",
+     "DTP": 817,
+     "CLLTP": 735,
+     "diff": 82,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "KL Rahul, S Samson, CH Gayle, SPD Smith, BA Stokes, C Jordan, JC Archer",
+              "points": "57,62,133,40,132,23,54"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 51,
+     "teams": "DC vs MI",
+     "DTP": 659.5,
+     "CLLTP": 626.5,
+     "diff": 33,
+     "inDreamTeam": {
+        "noOfPlayers": 8,
+        "Players": [
+           {
+              "name": "RR Pant, Q de Kock, I Kishan, SA Yadav, SS Iyer, A Nortje, JJ Bumrah, TA Boult",
+              "points": "27,60,98,25,32,25,95,81"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 52,
+     "teams": "RCB vs SRH",
+     "DTP": 634,
+     "CLLTP": 565,
+     "diff": 69,
+     "inDreamTeam": {
+        "noOfPlayers": 7,
+        "Players": [
+           {
+              "name": "W Saha, J Philippe, AB de Villiers, MK Pandey, J Holder, S Sharma, YS Chahal",
+              "points": "49,40,43,43,87,56,56"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 53,
+     "teams": "CSK vs KXIP",
+     "DTP": 681.5,
+     "CLLTP": 417,
+     "diff": 264.5,
+     "inDreamTeam": {
+        "noOfPlayers": 6,
+        "Players": [
+           {
+              "name": "R Jadeja, R Gaikwad, AT Rayudu, C Jordan, SN Thakur, KL Rahul",
+              "points": "31,90,36,29,29,46"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 54,
+     "teams": "KKR vs RR",
+     "DTP": 974,
+     "CLLTP": 672.5,
+     "diff": 301.5,
+     "inDreamTeam": {
+        "noOfPlayers": 4,
+        "Players": [
+           {
+              "name": "JC Buttler, EJG Morgan, CV Varun, PJ Cummins",
+              "points": "53,97,56,137"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 55,
+     "teams": "DC vs RCB",
+     "DTP": 742.5,
+     "CLLTP": 384,
+     "diff": 358.5,
+     "inDreamTeam": {
+        "noOfPlayers": 4,
+        "Players": [
+           {
+              "name": "AB de Villiers, V Kohli, D Padikkal, A Nortje",
+              "points": "44,37,67,79"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 56,
+     "teams": "SRH vs MI",
+     "DTP": 791.5,
+     "CLLTP": 656,
+     "diff": 135.5,
+     "inDreamTeam": {
+        "noOfPlayers": 8,
+        "Players": [
+           {
+              "name": "W Saha, I Kishan, Q de Kock, D Warner, S Yadav, J Holder, R Khan, S Sharma",
+              "points": "99,42,35,117,45,54,29,79"
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 57,
+     "teams": "",
+     "DTP": null,
+     "CLLTP": null,
+     "diff": null,
+     "inDreamTeam": {
+        "noOfPlayers": null,
+        "Players": [
+           {
+              "name": "",
+              "points": ""
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 58,
+     "teams": "",
+     "DTP": null,
+     "CLLTP": null,
+     "diff": null,
+     "inDreamTeam": {
+        "noOfPlayers": null,
+        "Players": [
+           {
+              "name": "",
+              "points": ""
+           }
+        ]
+     }
+  },
+   {
+     "matchno": 59,
+     "teams": "",
+     "DTP": null,
+     "CLLTP": null,
+     "diff": null,
+     "inDreamTeam": {
+        "noOfPlayers": null,
+        "Players": [
+           {
+              "name": "",
+              "points": ""
+           }
+        ]
+     }
+  }
+  ]
